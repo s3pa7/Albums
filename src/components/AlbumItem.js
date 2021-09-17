@@ -26,7 +26,6 @@ const AlbumItem = (props) => {
 
     useEffect(() => {
         if(props.favorite === 1){
-            debugger;
             setImages(true);
         }
     },[])

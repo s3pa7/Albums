@@ -60,7 +60,6 @@ const Albums = () => {
     }, [fetchTasks]);
 
 
-    console.log(uniqueAlbums);
 
     const showAlbums = (event) => {
         setAlbumId(event.value);
